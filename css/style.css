@@ -1,0 +1,175 @@
+/* Fonts */
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.edit, .propiedades, .me, .music, .photo, .pause, .play {
+	font-family: 'icomoon';
+	speak: none;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.edit:before {
+	content: "\e003";
+}
+.propiedades:before {
+	content: "\e000";
+}
+.me:before {
+	content: "\e001";
+}
+.music:before {
+	content: "\e002";
+}
+.photo:before {
+	content: "\e004";
+}
+.pause:before {
+	content: "\e005";
+}
+.play:before {
+	content: "\e006";
+}
+
+/* Generales */
+
+body {
+	
+}
+		header figure {
+			display: inline-block;
+			margin: 0;
+		}
+			header img {
+				height: auto;
+				max-width: 700px;
+				width: 100%;
+			}
+		header #tools {
+			background-color: white;
+			height: 0.5em;
+			width:  0.5em;
+		}
+
+		header #titulo {
+			background-color: black;
+			margin-top: -18px;
+		}
+
+			header #titulo h1 {
+				color: white;
+				font-family: arial;
+				font-size: 1.7em;
+				margin-bottom: 0px;
+				padding-top: 20px;
+				padding-left: 20px;
+			}
+			header #titulo h2 {
+				color: white;
+				font-family: arial;
+				font-size: 1em;
+				margin-top: -5px;
+				padding-left: 20px;
+				padding-bottom: 20px;
+			}
+
+			header #titulo .edit {
+				color: white;
+				float: right;
+				margin-top: -70px;
+				margin-right: 25px;
+			}
+
+	nav {
+		display: inline-block;
+		min-width: 714px;
+		width: 100%;
+	}
+		nav figure {
+			background-color: silver;
+			display: inline-block;
+			float: left;
+			height: 7.5em;
+			margin: 9px 9px;
+			width: 7.5em;
+		}
+
+	section {
+		clear: both;
+		min-width: 714px;
+		width: 100%;
+	}
+
+		section article {
+			padding-top: 5px 5px;
+			height: auto;
+			width: 100%;
+		}
+
+			section article .music, .me {
+				margin-left: 35px; 
+			}
+			hr{
+				clear: both;
+			}
+
+			section  article h3{
+				float: left;
+				color: black;
+				font-family: arial;
+				font-size: 1em;
+				margin-top: -50px;
+				margin-left: 55px;
+				padding-left: 20px;
+				clear: none;
+			}
+			section article .edit {
+				color: black;
+				float: right;
+				margin-top: -40px;
+				margin-right: 25px;
+			}
+
+			section  article p{
+				color: black;
+				font-family: arial;
+				font-size: 0.8em;
+
+			}
+			section article p.little{
+				float: left;
+				margin-top: -30px;
+				margin-left: 75px;
+			}
+
+	footer {
+		background-color: black;
+		clear: both;
+		height: 50px;
+	}
+
+		footer .play {
+			color: white;
+		}
+
+		footer p {
+			float: left;
+			color: white;
+			font-family: arial;
+			font-size: 1em;
+		}
+
+			
